@@ -54,8 +54,8 @@ tar -xzvf meta-evaluation.tar.gz -C . && rm meta-evaluation.tar.gz
 Create and activate the environment with:
 
 ```bash
-python3.9 -m venv omnicseval
-source omnicseval/bin/activate
+conda create -n omnicseval python=3.9 -y
+conda activate omnicseval
 pip install -r requirements.txt
 ```
 
